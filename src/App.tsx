@@ -53,7 +53,7 @@ function App() {
         {/* CTA Section */}
         <div className="text-center">
           <div className="inline-flex items-center gap-4 mb-8">
-            <a href="https://github.com/mona-imd" 
+            <a href="https://github.com/monad"
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
