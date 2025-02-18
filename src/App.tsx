@@ -4,11 +4,10 @@ import { Github, ExternalLink, Blocks, Wrench, Sparkles } from 'lucide-react';
 function App() {
   const tools = [
     {
-      name: "Testnet Explorer",
-      description: "A powerful blockchain explorer for the Monad testnet, with real-time data and analytics.",
+      name: "Testnet Notification Bot",
+      description: "A tiny but powerful transaction notification Telegram Bot for the Monad testnet, with real-time data and small analytics.",
       status: "Coming after Testnet Launch",
       icon: <Sparkles className="w-6 h-6" />,
-      link: "https://testnet.monad.im",
     },
     {
       name: "Monad Messenger",
@@ -53,19 +52,19 @@ function App() {
         {/* CTA Section */}
         <div className="text-center">
           <div className="inline-flex items-center gap-4 mb-8">
-            <a href="https://github.com/monad"
+            {/* <a href="https://github.com/monad-im"
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
               <Github className="w-5 h-5" />
               GitHub
-            </a>
+            </a> */}
             <a href="https://monad.xyz" 
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
               <ExternalLink className="w-5 h-5" />
-              Learn More
+              Learn More about Monad
             </a>
           </div>
           <p className="text-gray-400">
