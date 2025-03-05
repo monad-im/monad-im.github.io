@@ -24,15 +24,19 @@ function App() {
         <div className="flex flex-col items-center text-center mb-16">
           <Blocks className="w-16 h-16 mb-6 text-blue-400" />
           <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Monad Blockchain Tools
+            Monad Hackathon Project
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl">
-            Empowering developers with cutting-edge tools for building the future of blockchain technology on Monad.
+            This is project for Monad evm/accathon 2025. We are building a set of tools to help developers and users interact with the Monad blockchain.
+          </p>
+          <br/>
+          <p className="text-x1 text-blue-300 max-w-2xl">
+            This project is not affiliated with Monad or Monad Foundation. It is a community-driven project.
           </p>
         </div>
 
         {/* Tools Grid */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        {/* <div className="grid md:grid-cols-2 gap-8 mb-16">
           {tools.map((tool, index) => (
             <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
@@ -47,24 +51,24 @@ function App() {
               <p className="text-gray-400">{tool.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA Section */}
         <div className="text-center">
           <div className="inline-flex items-center gap-4 mb-8">
-            {/* <a href="https://github.com/monad-im"
+            <a href="https://github.com/monad-im"
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
               <Github className="w-5 h-5" />
               GitHub
-            </a> */}
+            </a>
             <a href="https://monad.xyz" 
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
               <ExternalLink className="w-5 h-5" />
-              Learn More about Monad
+              Learn More about Monad Blockchain
             </a>
           </div>
           <p className="text-gray-400">
